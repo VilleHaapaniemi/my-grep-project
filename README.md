@@ -16,10 +16,10 @@ The grep filter searches a file for a particular pattern of characters, and disp
 
 ## Example
 
-
-    // 3 arguments. (Options must begin with -o<option_letters>
-    ./mygrep -oli <key_word> <file_name>
-
+3 arguments. (Options must begin with -o<option_letters>
+```
+./mygrep -oli <key_word> <file_name>
+```
 
 
 ## Docker branch
