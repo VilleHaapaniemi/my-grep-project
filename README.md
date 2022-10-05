@@ -1,4 +1,3 @@
-
 # **my-grep-project :telescope::spiral_notepad:**
 
 ## Description
@@ -21,8 +20,15 @@ The grep filter searches a file for a particular pattern of characters, and disp
     // 3 arguments. (Options must begin with -o<option_letters>
     ./mygrep -oli <key_word> <file_name>
 
+## Docker branch
 
 
+    
+    docker build -t mygrep .
+    docker run --rm -it -e options=<options> -e keyword=<keyword> -e filename=<filename> mygrep
+
+### Known bugs
+- Docker version only working by 3 args
 ## Options
 
 - l = Print line numbers
